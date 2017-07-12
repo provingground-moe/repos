@@ -1,16 +1,1 @@
-.*
-!.gitignore
 *~
-anaconda/
-build/
-distserver
-eups/
-lfs/
-lsst_build/
-miniconda/
-public_html/
-sources/
-stack/
-var/
-venv/
-versiondb/
