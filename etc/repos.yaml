@@ -301,3 +301,7 @@ jemalloc: https://github.com/lsst/jemalloc.git
 treecorr: https://github.com/lsst/treecorr.git
 pytest: https://github.com/lsst/pytest.git
 pytest_flake8: https://github.com/lsst/pytest-flake8.git
+pycodestyle: https://github.com/lsst/pycodestyle.git
+python_mccabe: https://github.com/lsst/python_mccabe.git
+pyflakes: https://github.com/lsst/pyflakes.git
+flake8: https://github.com/lsst/flake8.git
