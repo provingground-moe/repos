@@ -300,7 +300,8 @@ obs_ctio0m9: https://github.com/lsst/obs_ctio0m9.git
 jemalloc: https://github.com/lsst/jemalloc.git
 treecorr: https://github.com/lsst/treecorr.git
 pytest: https://github.com/lsst/pytest.git
-pytest_flake8: https://github.com/lsst/pytest-flake8.git
+pytest_flake8: https://github.com/lsst/pytest_flake8.git
+pytest_session2file: https://github.com/lsst/pytest_session2file.git
 pycodestyle: https://github.com/lsst/pycodestyle.git
 python_mccabe: https://github.com/lsst/python_mccabe.git
 pyflakes: https://github.com/lsst/pyflakes.git
