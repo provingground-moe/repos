@@ -302,6 +302,9 @@ treecorr: https://github.com/lsst/treecorr.git
 pytest: https://github.com/lsst/pytest.git
 pytest_flake8: https://github.com/lsst/pytest_flake8.git
 pytest_session2file: https://github.com/lsst/pytest_session2file.git
+pytest_xdist: https://github.com/lsst/pytest_xdist.git
+pytest_forked: https://github.com/lsst/pytest_forked.git
+python_execnet: https://github.com/lsst/python_execnet.git
 pycodestyle: https://github.com/lsst/pycodestyle.git
 python_mccabe: https://github.com/lsst/python_mccabe.git
 pyflakes: https://github.com/lsst/pyflakes.git
