@@ -309,3 +309,5 @@ pycodestyle: https://github.com/lsst/pycodestyle.git
 python_mccabe: https://github.com/lsst/python_mccabe.git
 pyflakes: https://github.com/lsst/pyflakes.git
 flake8: https://github.com/lsst/flake8.git
+python_coverage: https://github.com/lsst/python_coverage.git
+pytest_coverage: https://github.com/lsst/pytest_coverage.git
