@@ -318,3 +318,4 @@ pep8_naming: https://github.com/lsst/pep8_naming.git
 cerberus: https://github.com/lsst/cerberus/
 obs_comCam: https://github.com/lsst/obs_comCam.git
 testdata_deblender: https://github.com/lsst/testdata_deblender.git
+synpipe: https://github.com/lsst/synpipe.git
