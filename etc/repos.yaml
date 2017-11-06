@@ -134,6 +134,7 @@ ip_isr: https://github.com/lsst/ip_isr.git
 pex_policy: https://github.com/lsst/pex_policy.git
 matplotlib: https://github.com/lsst/matplotlib.git
 pandas: https://github.com/lsst/pandas.git
+h5py: https://github.com/lsst/h5py.git
 obs_sdss: https://github.com/lsst/obs_sdss.git
 activemqcpp: https://github.com/lsst-dm/legacy-activemqcpp.git
 pex_harness: https://github.com/lsst-dm/legacy-pex_harness.git
