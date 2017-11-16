@@ -321,3 +321,4 @@ obs_comCam: https://github.com/lsst/obs_comCam.git
 testdata_deblender: https://github.com/lsst/testdata_deblender.git
 synpipe: https://github.com/lsst/synpipe.git
 ip_cpp: https://github.com/lsst-dm/ip_cpp.git
+jsonschema: https://github.com/lsst/jsonschema
