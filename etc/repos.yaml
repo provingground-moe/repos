@@ -179,7 +179,7 @@ testing_endtoend: https://github.com/lsst/testing_endtoend.git
 sqlite: https://github.com/lsst/sqlite.git
 antlr: https://github.com/lsst/antlr.git
 antlr4: https://github.com/lsst/antlr4.git
-datarel: https://github.com/lsst/datarel.git
+datarel: https://github.com/lsst-dm/legacy-datarel.git
 anaconda: https://github.com/lsst-dm/legacy-anaconda.git
 miniconda2: https://github.com/lsst/miniconda2.git
 miniconda3: https://github.com/lsst/miniconda3.git
