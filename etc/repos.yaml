@@ -320,7 +320,7 @@ cerberus: https://github.com/lsst/cerberus/
 obs_comCam: https://github.com/lsst/obs_comCam.git
 testdata_deblender: https://github.com/lsst/testdata_deblender.git
 synpipe: https://github.com/lsst/synpipe.git
-cp_pipe: https://github.com/lsst-dm/cp_pipe.git
+cp_pipe: https://github.com/lsst/cp_pipe.git
 jsonschema: https://github.com/lsst/jsonschema
 alembic: https://github.com/lsst/alembic
 daf_butler: https://github.com/lsst/daf_butler
