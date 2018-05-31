@@ -325,3 +325,4 @@ jsonschema: https://github.com/lsst/jsonschema
 alembic: https://github.com/lsst/alembic
 daf_butler: https://github.com/lsst/daf_butler
 sims_seeingModel: https://github.com/lsst/sims_seeingModel.git
+json_nlohmann: https://github.com/lsst/json_nlohmann.git
