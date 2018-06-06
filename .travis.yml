@@ -26,6 +26,12 @@ matrix:
       services:
         - docker
       script: ./tests/mdl.sh
+
+    - env: TEST=flake8
+      language: python
+      python: '3.6'
+      install: pip install flake8
+      script: flake8 bin/repos-list
 branches:
   only:
     - master
