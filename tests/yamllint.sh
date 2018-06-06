@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# run yamllint on yaml format files
+
 set -e
 shopt -s globstar nullglob
 

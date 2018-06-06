@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# run markdownlint on markdown format files
+
 set -e
 shopt -s globstar nullglob
 

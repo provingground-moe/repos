@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# run shellcheck on shellscripts
+
 set -e
 shopt -s globstar nullglob
 
