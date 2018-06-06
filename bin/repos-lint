@@ -15,13 +15,16 @@ args = parser.parse_args()
 
 product_pattern = re.compile('^[A-z_0-9]+$')
 
+
 def print_good(s, *args):
     # ansicolor assumes the first argument is a string
     print(green(str(s), *args))
 
+
 def print_bad(s, *args):
     # ansicolor assumes the first argument is a string
     print(red(str(s), *args))
+
 
 def check_product(pkg):
     print(faint(('%16s: ' % 'product name')), end='')
@@ -34,6 +37,7 @@ def check_product(pkg):
 
     print_good('OK')
     return True
+
 
 def check_repo_spec(spec):
     print(faint(('%16s: ' % 'repo spec')), end='')
@@ -52,11 +56,13 @@ def check_repo_spec(spec):
     print_good('OK')
     return True
 
+
 def validate_string(s):
     # intentionally disallowing subclasses of str since serialized objects
     # should not be in our configuration file.
     if not type(s) is str:
         raise ValueError('is not a str')
+
 
 def validate_bool(b):
     # intentionally disallowing subclasses of bool since serialized objects
@@ -64,9 +70,11 @@ def validate_bool(b):
     if not type(b) is bool:
         raise ValueError('is not a bool')
 
+
 def validate_product_name(pkg):
     if not product_pattern.match(pkg):
         raise ValueError('invalid EUPS product name')
+
 
 def validate_repo_dict(spec):
     mandatory_keys = ['url']
@@ -78,17 +86,18 @@ def validate_repo_dict(spec):
         validate_string(spec['ref'])
     if 'lfs' in spec:
         validate_bool(spec['lfs'])
-        if spec['lfs'] != True:
+        if spec['lfs'] is not True:
             raise ValueError('the only supported value for lfs is true')
 
     # missing mandatory keys
-    missing_keys = [ key for key in mandatory_keys if key not in spec ]
+    missing_keys = [key for key in mandatory_keys if key not in spec]
 
     # extra keys
-    unknown_keys = [ key for key in spec if key not in (mandatory_keys + optional_keys)]
+    unknown_keys = [key for key in spec
+                    if key not in (mandatory_keys + optional_keys)]
 
-    # at least one optional key is required; this is to prevent url only hashes
-    # which could be simplified
+    # at least one optional key is required; this is to prevent url only
+    # hashes which could be simplified
     no_options = not any(key for key in optional_keys if key in spec)
 
     if no_options or missing_keys or unknown_keys:
@@ -102,6 +111,7 @@ def validate_repo_dict(spec):
                     % optional_keys
 
         raise ValueError(message)
+
 
 def validate_repo_url(repo):
     validate_string(repo)
@@ -117,8 +127,9 @@ def validate_repo_url(repo):
     else:
         raise ValueError('unsupported scheme: %s' % url.scheme)
 
-repos=0
-problemos=0
+
+repos = 0
+problemos = 0
 
 print('repos')
 print('===')
@@ -131,7 +142,7 @@ with open(args.filename, 'r') as f:
     if not type(data) is dict:
         print_bad('YAML file has an invalid format: must be a Mapping')
         sys.exit(1)
-    for k,v in data.items():
+    for k, v in data.items():
         repos += 1
 
         print('%s: %s' % (bold(k), blue(str(v), style='bold')))
