@@ -8,6 +8,12 @@ matrix:
       python: '3.6'
       install: pip install -r requirements.txt
       script: ./bin/repos-lint ./etc/repos.yaml
+
+    - env: TEST=yamllint
+      language: c
+      services:
+        - docker
+      script: ./tests/yamllint.sh
 branches:
   only:
     - master
