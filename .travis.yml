@@ -1,11 +1,17 @@
 ---
 sudo: false
-language: python
-python:
-  - "3.4"
-install: pip install -r requirements.txt
-script: |
-  set -e
-  export SHELLOPTS
-
-  ./bin/repos-lint ./etc/repos.yaml
+language: c
+matrix:
+  include:
+    - env: TEST=repos-lint
+      language: python
+      python: '3.6'
+      install: pip install -r requirements.txt
+      script: ./bin/repos-lint ./etc/repos.yaml
+branches:
+  only:
+    - master
+    # also matched against tag pushes
+    - /^\d+\.\d+\.\d+$/
+notifications:
+  email: false
