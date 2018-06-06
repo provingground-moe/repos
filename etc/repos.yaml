@@ -45,6 +45,7 @@
 #     lfs: true
 #
 ---
+# yamllint disable rule:line-length
 lsst_thirdparty: https://github.com/lsst/lsst_thirdparty.git
 lsst_apps: https://github.com/lsst/lsst_apps.git
 twisted: https://github.com/lsst/twisted.git
@@ -99,8 +100,8 @@ sims_skybrightness_pre: https://github.com/lsst/sims_skybrightness_pre.git
 lsst: https://github.com/lsst/lsst.git
 boost: https://github.com/lsst/boost.git
 sims_sed_library:
-    url: https://github.com/lsst/sims_sed_library.git
-    lfs: true
+  url: https://github.com/lsst/sims_sed_library.git
+  lfs: true
 zookeeper: https://github.com/lsst/zookeeper.git
 obs_test: https://github.com/lsst/obs_test.git
 ndarray: https://github.com/lsst/ndarray.git
@@ -173,7 +174,7 @@ sims_data: https://github.com/lsst/sims_data.git
 daf_butlerUtils: https://github.com/lsst/obs_base.git
 obs_base: https://github.com/lsst/obs_base.git
 pyephem: https://github.com/lsst/pyephem.git
-ephem:  https://github.com/lsst/ephem.git
+ephem: https://github.com/lsst/ephem.git
 ctrl_provenance: https://github.com/lsst/ctrl_provenance.git
 testing_endtoend: https://github.com/lsst/testing_endtoend.git
 sqlite: https://github.com/lsst/sqlite.git
