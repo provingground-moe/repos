@@ -328,3 +328,4 @@ daf_butler: https://github.com/lsst/daf_butler
 sims_seeingModel: https://github.com/lsst/sims_seeingModel.git
 json_nlohmann: https://github.com/lsst/json_nlohmann.git
 display_ginga: https://github.com/lsst/display_ginga
+cbp: https://github.com/lsst/cbp
