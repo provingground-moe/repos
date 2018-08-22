@@ -340,3 +340,5 @@ scarlet:
   url: https://github.com/lsst/scarlet.git
   ref: lsst-dev
 ts_opensplice: https://github.com/lsst-ts/ts_opensplice.git
+ts_xml: https://github.com/lsst-ts/ts_xml.git
+ts_sal: https://github.com/lsst-ts/ts_sal.git
