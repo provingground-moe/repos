@@ -341,4 +341,6 @@ scarlet:
   ref: lsst-dev
 ts_opensplice: https://github.com/lsst-ts/ts_opensplice.git
 ts_xml: https://github.com/lsst-ts/ts_xml.git
-ts_sal: https://github.com/lsst-ts/ts_sal.git
+ts_sal: https://github.com/lsst-sims/ts_sal.git
+salpytools: https://github.com/lsst-ts/salpytools.git
+ts_statemachine: https://github.com/lsst-ts/ts_statemachine.git
