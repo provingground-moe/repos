@@ -325,7 +325,6 @@ cp_pipe: https://github.com/lsst/cp_pipe.git
 jsonschema: https://github.com/lsst/jsonschema
 alembic: https://github.com/lsst/alembic
 daf_butler: https://github.com/lsst/daf_butler
-sims_seeingModel: https://github.com/lsst/sims_seeingModel.git
 json_nlohmann: https://github.com/lsst/json_nlohmann.git
 display_ginga: https://github.com/lsst/display_ginga
 cbp: https://github.com/lsst/cbp
@@ -344,3 +343,15 @@ ts_xml: https://github.com/lsst-ts/ts_xml.git
 ts_sal: https://github.com/lsst-sims/ts_sal.git
 salpytools: https://github.com/lsst-ts/salpytools.git
 ts_statemachine: https://github.com/lsst-ts/ts_statemachine.git
+ts_dateloc: https://github.com/lsst-ts/ts_dateloc.git
+ts_astrosky_model: https://github.com/lsst-ts/ts_astrosky_model.git
+ts_observatory_model: https://github.com/lsst-ts/ts_observatory_model.git
+sims_seeingModel: https://github.com/lsst/sims_seeingModel.git
+sims_cloudModel: https://github.com/lsst/sims_cloudModel.git
+sims_downtimeModel: https://github.com/lsst/sims_downtimeModel.git
+scheduler_config: https://github.com/lsst-ts/scheduler_config.git
+ts_schedulerConfig: https://github.com/lsst-ts/ts_schedulerConfig.git
+ts_scheduler: https://github.com/lsst-ts/ts_scheduler.git
+ts_proposalScheduler: https://github.com/lsst-ts/ts_proposalScheduler.git
+sims_featureScheduler: https://github.com/lsst/sims_featureScheduler.git
+sims_ocs: https://github.com/lsst-sims/sims_ocs.git
