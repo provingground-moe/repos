@@ -350,6 +350,7 @@ sims_seeingModel: https://github.com/lsst/sims_seeingModel.git
 sims_cloudModel: https://github.com/lsst/sims_cloudModel.git
 sims_downtimeModel: https://github.com/lsst/sims_downtimeModel.git
 scheduler_config: https://github.com/lsst-ts/scheduler_config.git
+ts_schedulerConfig: https://github.com/lsst-ts/ts_schedulerConfig.git
 ts_scheduler: https://github.com/lsst-ts/ts_scheduler.git
 ts_proposalScheduler: https://github.com/lsst-ts/ts_proposalScheduler.git
 sims_featureScheduler: https://github.com/lsst/sims_featureScheduler.git
