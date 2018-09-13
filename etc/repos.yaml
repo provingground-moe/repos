@@ -357,3 +357,4 @@ ts_scheduler: https://github.com/lsst-ts/ts_scheduler.git
 ts_proposalScheduler: https://github.com/lsst-ts/ts_proposalScheduler.git
 sims_featureScheduler: https://github.com/lsst/sims_featureScheduler.git
 sims_ocs: https://github.com/lsst-sims/sims_ocs.git
+obs_metadata: https://github.com/lsst/obs_metadata.git
