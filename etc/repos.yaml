@@ -358,3 +358,12 @@ ts_proposalScheduler: https://github.com/lsst-ts/ts_proposalScheduler.git
 sims_featureScheduler: https://github.com/lsst/sims_featureScheduler.git
 sims_ocs: https://github.com/lsst-sims/sims_ocs.git
 obs_metadata: https://github.com/lsst/obs_metadata.git
+ap_verify_testdata:
+  url: https://github.com/lsst-dm/ap_verify_testdata.git
+  lfs: true
+ap_verify_hits2015:
+  url: https://github.com/lsst/ap_verify_hits2015.git
+  lfs: true
+ap_verify_ci_hits2015:
+  url: https://github.com/lsst/ap_verify_ci_hits2015.git
+  lfs: true
