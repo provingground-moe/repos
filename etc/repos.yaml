@@ -372,3 +372,4 @@ ap_verify_ci_hits2015:
   url: https://github.com/lsst/ap_verify_ci_hits2015.git
   lfs: true
 dax_ppdb: https://github.com/lsst/dax_ppdb.git
+python_py: https://github.com/lsst/python_py.git
