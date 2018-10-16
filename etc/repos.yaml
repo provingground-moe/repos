@@ -259,6 +259,9 @@ jointcal: https://github.com/lsst/jointcal
 testdata_jointcal:
   url: https://github.com/lsst/testdata_jointcal.git
   lfs: true
+fgcm:
+  url: https://github.com/lsst/fgcm.git
+  ref: lsst-dev
 ngmix: https://github.com/lsst/ngmix.git
 meas_extensions_ngmix: https://github.com/lsst/meas_extensions_ngmix.git
 meas_extensions_shapeHSM: https://github.com/lsst/meas_extensions_shapeHSM.git
