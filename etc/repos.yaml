@@ -262,6 +262,7 @@ testdata_jointcal:
 fgcm:
   url: https://github.com/lsst/fgcm.git
   ref: lsst-dev
+fgcmcal: https://github.com/lsst/fgcmcal.git
 ngmix: https://github.com/lsst/ngmix.git
 meas_extensions_ngmix: https://github.com/lsst/meas_extensions_ngmix.git
 meas_extensions_shapeHSM: https://github.com/lsst/meas_extensions_shapeHSM.git
