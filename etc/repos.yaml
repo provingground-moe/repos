@@ -361,7 +361,7 @@ ts_proposalScheduler: https://github.com/lsst-ts/ts_proposalScheduler.git
 sims_featureScheduler: https://github.com/lsst/sims_featureScheduler.git
 sims_ocs: https://github.com/lsst-sims/sims_ocs.git
 sims_speedObservatory: https://github.com/lsst-sims/sims_speedObservatory.git
-obs_metadata: https://github.com/lsst/obs_metadata.git
+astro_metadata_translator: https://github.com/lsst/astro_metadata_translator.git
 ap_association: https://github.com/lsst/ap_association.git
 ap_pipe: https://github.com/lsst/ap_pipe.git
 ap_verify: https://github.com/lsst/ap_verify.git
