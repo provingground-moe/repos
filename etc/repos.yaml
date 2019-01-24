@@ -79,7 +79,7 @@ wcslib: https://github.com/lsst/wcslib.git
 log4cxx: https://github.com/lsst/log4cxx.git
 pymssql: https://github.com/lsst/pymssql.git
 apr: https://github.com/lsst/apr.git
-coadd_chisquared: https://github.com/lsst/coadd_chisquared.git
+coadd_chisquared: https://github.com/lsst-dm/legacy-coadd_chisquared.git
 pex_exceptions: https://github.com/lsst/pex_exceptions.git
 pyfits: https://github.com/lsst/pyfits.git
 coadd_utils: https://github.com/lsst/coadd_utils.git
