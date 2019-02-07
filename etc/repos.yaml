@@ -380,3 +380,7 @@ dax_ppdb: https://github.com/lsst/dax_ppdb.git
 python_py: https://github.com/lsst/python_py.git
 obs_lsst: https://github.com/lsst/obs_lsst.git
 ctrl_mpexec: https://github.com/lsst/ctrl_mpexec.git
+ci_lsst: https://github.com/lsst-dm/ci_lsst
+testdata_obs_lsst:
+  url: https://github.com/lsst-dm/testdata_obs_lsst
+  lfs: true
