@@ -384,3 +384,6 @@ ci_lsst: https://github.com/lsst-dm/ci_lsst
 testdata_lsst:
   url: https://github.com/lsst/testdata_lsst
   lfs: true
+ap_pipe_testdata:
+  url: https://github.com/lsst/ap_pipe_testdata
+  lfs: true
