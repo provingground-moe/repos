@@ -387,3 +387,7 @@ testdata_lsst:
 ap_pipe_testdata:
   url: https://github.com/lsst/ap_pipe_testdata
   lfs: true
+obs_decam_data: https://github.com/lsst/obs_decam_data.git
+obs_subaru_data: https://github.com/lsst/obs_subaru_data.git
+obs_lsst_data: https://github.com/lsst/obs_lsst_data.git
+obs_test_data: https://github.com/lsst/obs_test_data.git
