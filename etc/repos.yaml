@@ -343,6 +343,7 @@ proxmin:
 scarlet:
   url: https://github.com/lsst/scarlet.git
   ref: lsst-dev
+meas_extensions_scarlet: https://github.com/lsst/meas_extensions_scarlet.git
 ts_opensplice: https://github.com/lsst-ts/ts_opensplice.git
 ts_xml:
   url: https://github.com/lsst-ts/ts_xml.git
