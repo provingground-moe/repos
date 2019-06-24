@@ -336,6 +336,7 @@ meas_extensions_multiShapelet: https://github.com/lsst-dm/legacy-meas_extensions
 testing_pipeQA: https://github.com/lsst/testing_pipeQA.git
 testing_displayQA: https://github.com/lsst/testing_displayQA.git
 lsst_dm_stack_demo: https://github.com/lsst/lsst_dm_stack_demo.git
+autograd: https://github.com/lsst/autograd.git
 proxmin:
   url: https://github.com/lsst/proxmin.git
   ref: lsst-dev
