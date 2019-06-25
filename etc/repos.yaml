@@ -25,7 +25,7 @@
 #
 # ### string spec
 #
-#   afw: https://github.com/lsst/afw.git
+#   afw: https://github.com/provingground-moe/afw.git
 #
 # ### dict/hash/map spec
 #
@@ -33,7 +33,7 @@
 #        |
 #        v
 #   afw:
-#     url: https://github.com/lsst/afw.git
+#     url: https://github.com/provingground-moe/afw.git
 #     ref: my-magic-branch
 #
 #   ^
@@ -41,309 +41,309 @@
 #   +--  2 space indent declaring a nested dict/hash/map
 #
 #   afwdata:
-#     url: https://github.com/lsst/afwdata.git
+#     url: https://github.com/provingground-moe/afwdata.git
 #     lfs: true
 #
 ---
 # yamllint disable rule:line-length
-lsst_thirdparty: https://github.com/lsst/lsst_thirdparty.git
-lsst_apps: https://github.com/lsst/lsst_apps.git
-twisted: https://github.com/lsst/twisted.git
-throughputs: https://github.com/lsst/throughputs.git
-sims_utils: https://github.com/lsst/sims_utils.git
-sims_catalogs_measures: https://github.com/lsst/sims_catalogs_measures.git
-scisql: https://github.com/lsst/scisql.git
-pex_logging: https://github.com/lsst/pex_logging.git
-gcc: https://github.com/lsst/gcc.git
-luasocket: https://github.com/lsst/luasocket.git
-cfitsio: https://github.com/lsst/cfitsio.git
-lua: https://github.com/lsst/lua.git
-lsst_distrib: https://github.com/lsst/lsst_distrib.git
-pex_config: https://github.com/lsst/pex_config.git
-lsstDoxygen: https://github.com/lsst/lsstDoxygen.git
-mysqlpython: https://github.com/lsst/mysqlpython.git
-python_mysqlclient: https://github.com/lsst/python_mysqlclient.git
-mysqlproxy: https://github.com/lsst/mysqlproxy.git
-astshim: https://github.com/lsst/astshim.git
-sconsUtils: https://github.com/lsst/sconsUtils.git
-afw: https://github.com/lsst/afw.git
-meas_base: https://github.com/lsst/meas_base.git
-xrootd: https://github.com/lsst/xrootd.git
-apr_util: https://github.com/lsst/apr_util.git
-daf_persistence: https://github.com/lsst/daf_persistence.git
-obs_lsstSim: https://github.com/lsst/obs_lsstSim.git
-log: https://github.com/lsst/log.git
-base: https://github.com/lsst/base.git
-scons: https://github.com/lsst/scons.git
-wcslib: https://github.com/lsst/wcslib.git
-log4cxx: https://github.com/lsst/log4cxx.git
-pymssql: https://github.com/lsst/pymssql.git
-apr: https://github.com/lsst/apr.git
+lsst_thirdparty: https://github.com/provingground-moe/lsst_thirdparty.git
+lsst_apps: https://github.com/provingground-moe/lsst_apps.git
+twisted: https://github.com/provingground-moe/twisted.git
+throughputs: https://github.com/provingground-moe/throughputs.git
+sims_utils: https://github.com/provingground-moe/sims_utils.git
+sims_catalogs_measures: https://github.com/provingground-moe/sims_catalogs_measures.git
+scisql: https://github.com/provingground-moe/scisql.git
+pex_logging: https://github.com/provingground-moe/pex_logging.git
+gcc: https://github.com/provingground-moe/gcc.git
+luasocket: https://github.com/provingground-moe/luasocket.git
+cfitsio: https://github.com/provingground-moe/cfitsio.git
+lua: https://github.com/provingground-moe/lua.git
+lsst_distrib: https://github.com/provingground-moe/lsst_distrib.git
+pex_config: https://github.com/provingground-moe/pex_config.git
+lsstDoxygen: https://github.com/provingground-moe/lsstDoxygen.git
+mysqlpython: https://github.com/provingground-moe/mysqlpython.git
+python_mysqlclient: https://github.com/provingground-moe/python_mysqlclient.git
+mysqlproxy: https://github.com/provingground-moe/mysqlproxy.git
+astshim: https://github.com/provingground-moe/astshim.git
+sconsUtils: https://github.com/provingground-moe/sconsUtils.git
+afw: https://github.com/provingground-moe/afw.git
+meas_base: https://github.com/provingground-moe/meas_base.git
+xrootd: https://github.com/provingground-moe/xrootd.git
+apr_util: https://github.com/provingground-moe/apr_util.git
+daf_persistence: https://github.com/provingground-moe/daf_persistence.git
+obs_lsstSim: https://github.com/provingground-moe/obs_lsstSim.git
+log: https://github.com/provingground-moe/log.git
+base: https://github.com/provingground-moe/base.git
+scons: https://github.com/provingground-moe/scons.git
+wcslib: https://github.com/provingground-moe/wcslib.git
+log4cxx: https://github.com/provingground-moe/log4cxx.git
+pymssql: https://github.com/provingground-moe/pymssql.git
+apr: https://github.com/provingground-moe/apr.git
 coadd_chisquared: https://github.com/lsst-dm/legacy-coadd_chisquared.git
-pex_exceptions: https://github.com/lsst/pex_exceptions.git
-pyfits: https://github.com/lsst/pyfits.git
-coadd_utils: https://github.com/lsst/coadd_utils.git
-expat: https://github.com/lsst/expat.git
-zopeinterface: https://github.com/lsst/zopeinterface.git
-libevent: https://github.com/lsst/libevent.git
-lsst_sims: https://github.com/lsst/lsst_sims.git
-numpy: https://github.com/lsst/numpy.git
-scipy: https://github.com/lsst/scipy.git
-lmfit: https://github.com/lsst/lmfit.git
-esutil: https://github.com/lsst/esutil.git
-meas_deblender: https://github.com/lsst/meas_deblender.git
-gsl: https://github.com/lsst/gsl.git
-sims_maf: https://github.com/lsst/sims_maf.git
-sims_skybrightness: https://github.com/lsst/sims_skybrightness.git
-sims_skybrightness_data: https://github.com/lsst/sims_skybrightness_data.git
-sims_skybrightness_pre: https://github.com/lsst/sims_skybrightness_pre.git
-lsst: https://github.com/lsst/lsst.git
-boost: https://github.com/lsst/boost.git
-sims_sed_library: https://github.com/lsst/sims_sed_library.git
-zookeeper: https://github.com/lsst/zookeeper.git
-obs_test: https://github.com/lsst/obs_test.git
-ndarray: https://github.com/lsst/ndarray.git
-xpa: https://github.com/lsst/xpa.git
+pex_exceptions: https://github.com/provingground-moe/pex_exceptions.git
+pyfits: https://github.com/provingground-moe/pyfits.git
+coadd_utils: https://github.com/provingground-moe/coadd_utils.git
+expat: https://github.com/provingground-moe/expat.git
+zopeinterface: https://github.com/provingground-moe/zopeinterface.git
+libevent: https://github.com/provingground-moe/libevent.git
+lsst_sims: https://github.com/provingground-moe/lsst_sims.git
+numpy: https://github.com/provingground-moe/numpy.git
+scipy: https://github.com/provingground-moe/scipy.git
+lmfit: https://github.com/provingground-moe/lmfit.git
+esutil: https://github.com/provingground-moe/esutil.git
+meas_deblender: https://github.com/provingground-moe/meas_deblender.git
+gsl: https://github.com/provingground-moe/gsl.git
+sims_maf: https://github.com/provingground-moe/sims_maf.git
+sims_skybrightness: https://github.com/provingground-moe/sims_skybrightness.git
+sims_skybrightness_data: https://github.com/provingground-moe/sims_skybrightness_data.git
+sims_skybrightness_pre: https://github.com/provingground-moe/sims_skybrightness_pre.git
+lsst: https://github.com/provingground-moe/lsst.git
+boost: https://github.com/provingground-moe/boost.git
+sims_sed_library: https://github.com/provingground-moe/sims_sed_library.git
+zookeeper: https://github.com/provingground-moe/zookeeper.git
+obs_test: https://github.com/provingground-moe/obs_test.git
+ndarray: https://github.com/provingground-moe/ndarray.git
+xpa: https://github.com/provingground-moe/xpa.git
 ctrl_events: https://github.com/lsst-dm/legacy-ctrl_events.git
-astrometry_net_data: https://github.com/lsst/astrometry_net_data.git
-db: https://github.com/lsst/db.git
+astrometry_net_data: https://github.com/provingground-moe/astrometry_net_data.git
+db: https://github.com/provingground-moe/db.git
 ctrl_platform_lsst: https://github.com/lsst-dm/legacy_ctrl_platform_lsst.git
 ctrl_platform_gordon: https://github.com/lsst-dm/legacy_ctrl_platform_gordon.git
-ctrl_platform_lsstvc: https://github.com/lsst/ctrl_platform_lsstvc.git
-pipe_base: https://github.com/lsst/pipe_base.git
-qserv_distrib: https://github.com/lsst/qserv_distrib.git
-daf_base: https://github.com/lsst/daf_base.git
-python: https://github.com/lsst/python.git
-freetds: https://github.com/lsst/freetds.git
-skymap: https://github.com/lsst/skymap.git
-doxygen: https://github.com/lsst/doxygen.git
-mariadb: https://github.com/lsst/mariadb.git
-mariadbclient: https://github.com/lsst/mariadbclient.git
-mysql: https://github.com/lsst/mysql.git
-ctrl_orca: https://github.com/lsst/ctrl_orca.git
-geom: https://github.com/lsst/geom.git
-sphgeom: https://github.com/lsst/sphgeom.git
-qserv: https://github.com/lsst/qserv.git
-palpy: https://github.com/lsst/palpy.git
-luaexpat: https://github.com/lsst/luaexpat.git
-cat: https://github.com/lsst/cat.git
-ip_isr: https://github.com/lsst/ip_isr.git
-pex_policy: https://github.com/lsst/pex_policy.git
-matplotlib: https://github.com/lsst/matplotlib.git
-pandas: https://github.com/lsst/pandas.git
-h5py: https://github.com/lsst/h5py.git
-obs_sdss: https://github.com/lsst/obs_sdss.git
+ctrl_platform_lsstvc: https://github.com/provingground-moe/ctrl_platform_lsstvc.git
+pipe_base: https://github.com/provingground-moe/pipe_base.git
+qserv_distrib: https://github.com/provingground-moe/qserv_distrib.git
+daf_base: https://github.com/provingground-moe/daf_base.git
+python: https://github.com/provingground-moe/python.git
+freetds: https://github.com/provingground-moe/freetds.git
+skymap: https://github.com/provingground-moe/skymap.git
+doxygen: https://github.com/provingground-moe/doxygen.git
+mariadb: https://github.com/provingground-moe/mariadb.git
+mariadbclient: https://github.com/provingground-moe/mariadbclient.git
+mysql: https://github.com/provingground-moe/mysql.git
+ctrl_orca: https://github.com/provingground-moe/ctrl_orca.git
+geom: https://github.com/provingground-moe/geom.git
+sphgeom: https://github.com/provingground-moe/sphgeom.git
+qserv: https://github.com/provingground-moe/qserv.git
+palpy: https://github.com/provingground-moe/palpy.git
+luaexpat: https://github.com/provingground-moe/luaexpat.git
+cat: https://github.com/provingground-moe/cat.git
+ip_isr: https://github.com/provingground-moe/ip_isr.git
+pex_policy: https://github.com/provingground-moe/pex_policy.git
+matplotlib: https://github.com/provingground-moe/matplotlib.git
+pandas: https://github.com/provingground-moe/pandas.git
+h5py: https://github.com/provingground-moe/h5py.git
+obs_sdss: https://github.com/provingground-moe/obs_sdss.git
 activemqcpp: https://github.com/lsst-dm/legacy-activemqcpp.git
 pex_harness: https://github.com/lsst-dm/legacy-pex_harness.git
-git: https://github.com/lsst/git.git
-sims_catUtils: https://github.com/lsst/sims_catUtils.git
+git: https://github.com/provingground-moe/git.git
+sims_catUtils: https://github.com/provingground-moe/sims_catUtils.git
 sims_alertsim: https://github.com/lsst-sims/sims_alertsim.git
-sims_GalSimInterface: https://github.com/lsst/sims_GalSimInterface.git
-qserv_testdata: https://github.com/lsst/qserv_testdata
-eigen: https://github.com/lsst/eigen.git
-healpy: https://github.com/lsst/healpy.git
-mysqlclient: https://github.com/lsst/mysqlclient.git
-utils: https://github.com/lsst/utils.git
+sims_GalSimInterface: https://github.com/provingground-moe/sims_GalSimInterface.git
+qserv_testdata: https://github.com/provingground-moe/qserv_testdata
+eigen: https://github.com/provingground-moe/eigen.git
+healpy: https://github.com/provingground-moe/healpy.git
+mysqlclient: https://github.com/provingground-moe/mysqlclient.git
+utils: https://github.com/provingground-moe/utils.git
 afwdata:
-  url: https://github.com/lsst/afwdata.git
+  url: https://github.com/provingground-moe/afwdata.git
   lfs: true
-meas_astrom: https://github.com/lsst/meas_astrom.git
-ip_diffim: https://github.com/lsst/ip_diffim.git
-meas_modelfit: https://github.com/lsst/meas_modelfit.git
-pipe_tasks: https://github.com/lsst/pipe_tasks.git
+meas_astrom: https://github.com/provingground-moe/meas_astrom.git
+ip_diffim: https://github.com/provingground-moe/ip_diffim.git
+meas_modelfit: https://github.com/provingground-moe/meas_modelfit.git
+pipe_tasks: https://github.com/provingground-moe/pipe_tasks.git
 pipe_supertask: https://github.com/lsst-dm/legacy-pipe_supertask.git
-sims_photUtils: https://github.com/lsst/sims_photUtils.git
+sims_photUtils: https://github.com/provingground-moe/sims_photUtils.git
 skypix: https://github.com/lsst-dm/legacy-skypix.git
-ctrl_execute: https://github.com/lsst/ctrl_execute.git
-luaxmlrpc: https://github.com/lsst/luaxmlrpc.git
-ap: https://github.com/lsst/ap.git
-sims_coordUtils: https://github.com/lsst/sims_coordUtils.git
-shapelet: https://github.com/lsst/shapelet.git
-fftw: https://github.com/lsst/fftw.git
-meas_algorithms: https://github.com/lsst/meas_algorithms.git
-pykg_config: https://github.com/lsst/pykg_config.git
-protobuf: https://github.com/lsst/protobuf.git
-sims_catalogs: https://github.com/lsst/sims_catalogs.git
-sims_catalogs_generation: https://github.com/lsst/sims_catalogs_generation.git
-partition: https://github.com/lsst/partition.git
-swig: https://github.com/lsst/swig.git
-kazoo: https://github.com/lsst/kazoo.git
-sims_data: https://github.com/lsst/sims_data.git
-daf_butlerUtils: https://github.com/lsst/obs_base.git
-obs_base: https://github.com/lsst/obs_base.git
-pyephem: https://github.com/lsst/pyephem.git
-ephem: https://github.com/lsst/ephem.git
-ctrl_provenance: https://github.com/lsst/ctrl_provenance.git
-testing_endtoend: https://github.com/lsst/testing_endtoend.git
-sqlite: https://github.com/lsst/sqlite.git
-antlr: https://github.com/lsst/antlr.git
-antlr4: https://github.com/lsst/antlr4.git
+ctrl_execute: https://github.com/provingground-moe/ctrl_execute.git
+luaxmlrpc: https://github.com/provingground-moe/luaxmlrpc.git
+ap: https://github.com/provingground-moe/ap.git
+sims_coordUtils: https://github.com/provingground-moe/sims_coordUtils.git
+shapelet: https://github.com/provingground-moe/shapelet.git
+fftw: https://github.com/provingground-moe/fftw.git
+meas_algorithms: https://github.com/provingground-moe/meas_algorithms.git
+pykg_config: https://github.com/provingground-moe/pykg_config.git
+protobuf: https://github.com/provingground-moe/protobuf.git
+sims_catalogs: https://github.com/provingground-moe/sims_catalogs.git
+sims_catalogs_generation: https://github.com/provingground-moe/sims_catalogs_generation.git
+partition: https://github.com/provingground-moe/partition.git
+swig: https://github.com/provingground-moe/swig.git
+kazoo: https://github.com/provingground-moe/kazoo.git
+sims_data: https://github.com/provingground-moe/sims_data.git
+daf_butlerUtils: https://github.com/provingground-moe/obs_base.git
+obs_base: https://github.com/provingground-moe/obs_base.git
+pyephem: https://github.com/provingground-moe/pyephem.git
+ephem: https://github.com/provingground-moe/ephem.git
+ctrl_provenance: https://github.com/provingground-moe/ctrl_provenance.git
+testing_endtoend: https://github.com/provingground-moe/testing_endtoend.git
+sqlite: https://github.com/provingground-moe/sqlite.git
+antlr: https://github.com/provingground-moe/antlr.git
+antlr4: https://github.com/provingground-moe/antlr4.git
 datarel: https://github.com/lsst-dm/legacy-datarel.git
 anaconda: https://github.com/lsst-dm/legacy-anaconda.git
 miniconda2: https://github.com/lsst-dm/legacy-miniconda2.git
 miniconda3: https://github.com/lsst-dm/legacy-miniconda3.git
-astrometry_net: https://github.com/lsst/astrometry_net.git
-sims_dustmaps: https://github.com/lsst/sims_dustmaps.git
+astrometry_net: https://github.com/provingground-moe/astrometry_net.git
+sims_dustmaps: https://github.com/provingground-moe/sims_dustmaps.git
 sims_maps:
-  url: https://github.com/lsst/sims_maps.git
+  url: https://github.com/provingground-moe/sims_maps.git
   lfs: true
-minuit2: https://github.com/lsst/minuit2.git
-lsst_libs: https://github.com/lsst/lsst_libs.git
-flask: https://github.com/lsst/flask.git
-dax_dbserv: https://github.com/lsst/dax_dbserv.git
-dax_imgserv: https://github.com/lsst/dax_imgserv.git
-dax_metaserv: https://github.com/lsst/dax_metaserv.git
-dax_webserv: https://github.com/lsst/dax_webserv.git
-dax_webserv_client: https://github.com/lsst/dax_webserv_client.git
-dax_webservcommon: https://github.com/lsst/dax_webservcommon.git
-coord: https://github.com/lsst/coord.git
-GalSim: https://github.com/lsst/galsim.git
-galsim: https://github.com/lsst/galsim.git
-tmv: https://github.com/lsst/tmv.git
-astropy_helpers: https://github.com/lsst/astropy_helpers.git
-sncosmo: https://github.com/lsst/sncosmo.git
-sims_operations: https://github.com/lsst/sims_operations.git
-display_ds9: https://github.com/lsst/display_ds9.git
-display_firefly: https://github.com/lsst/display_firefly.git
-display_matplotlib: https://github.com/lsst/display_matplotlib.git
-meas_extensions_psfex: https://github.com/lsst/meas_extensions_psfex.git
-psfex: https://github.com/lsst/psfex.git
-daf_ingest: https://github.com/lsst/daf_ingest.git
-mpi: https://github.com/lsst/mpi.git
-mpich: https://github.com/lsst/mpich.git
-mpi4py: https://github.com/lsst/mpi4py.git
-ctrl_pool: https://github.com/lsst/ctrl_pool.git
-erfa: https://github.com/lsst/erfa.git
-pal: https://github.com/lsst/pal.git
-sqlalchemy: https://github.com/lsst/sqlalchemy.git
-python_future: https://github.com/lsst/python_future.git
-capnproto: https://github.com/lsst/capnproto.git
-obs_subaru: https://github.com/lsst/obs_subaru.git
-stsci_distutils: https://github.com/lsst/stsci_distutils.git
-python_d2to1: https://github.com/lsst/python_d2to1.git
+minuit2: https://github.com/provingground-moe/minuit2.git
+lsst_libs: https://github.com/provingground-moe/lsst_libs.git
+flask: https://github.com/provingground-moe/flask.git
+dax_dbserv: https://github.com/provingground-moe/dax_dbserv.git
+dax_imgserv: https://github.com/provingground-moe/dax_imgserv.git
+dax_metaserv: https://github.com/provingground-moe/dax_metaserv.git
+dax_webserv: https://github.com/provingground-moe/dax_webserv.git
+dax_webserv_client: https://github.com/provingground-moe/dax_webserv_client.git
+dax_webservcommon: https://github.com/provingground-moe/dax_webservcommon.git
+coord: https://github.com/provingground-moe/coord.git
+GalSim: https://github.com/provingground-moe/galsim.git
+galsim: https://github.com/provingground-moe/galsim.git
+tmv: https://github.com/provingground-moe/tmv.git
+astropy_helpers: https://github.com/provingground-moe/astropy_helpers.git
+sncosmo: https://github.com/provingground-moe/sncosmo.git
+sims_operations: https://github.com/provingground-moe/sims_operations.git
+display_ds9: https://github.com/provingground-moe/display_ds9.git
+display_firefly: https://github.com/provingground-moe/display_firefly.git
+display_matplotlib: https://github.com/provingground-moe/display_matplotlib.git
+meas_extensions_psfex: https://github.com/provingground-moe/meas_extensions_psfex.git
+psfex: https://github.com/provingground-moe/psfex.git
+daf_ingest: https://github.com/provingground-moe/daf_ingest.git
+mpi: https://github.com/provingground-moe/mpi.git
+mpich: https://github.com/provingground-moe/mpich.git
+mpi4py: https://github.com/provingground-moe/mpi4py.git
+ctrl_pool: https://github.com/provingground-moe/ctrl_pool.git
+erfa: https://github.com/provingground-moe/erfa.git
+pal: https://github.com/provingground-moe/pal.git
+sqlalchemy: https://github.com/provingground-moe/sqlalchemy.git
+python_future: https://github.com/provingground-moe/python_future.git
+capnproto: https://github.com/provingground-moe/capnproto.git
+obs_subaru: https://github.com/provingground-moe/obs_subaru.git
+stsci_distutils: https://github.com/provingground-moe/stsci_distutils.git
+python_d2to1: https://github.com/provingground-moe/python_d2to1.git
 testdata_subaru:
-  url: https://github.com/lsst/testdata_subaru.git
+  url: https://github.com/provingground-moe/testdata_subaru.git
   lfs: true
-obs_cfht: https://github.com/lsst/obs_cfht.git
+obs_cfht: https://github.com/provingground-moe/obs_cfht.git
 testdata_cfht:
-  url: https://github.com/lsst/testdata_cfht.git
+  url: https://github.com/provingground-moe/testdata_cfht.git
   lfs: true
-obs_decam: https://github.com/lsst/obs_decam.git
+obs_decam: https://github.com/provingground-moe/obs_decam.git
 testdata_decam:
-  url: https://github.com/lsst/testdata_decam.git
+  url: https://github.com/provingground-moe/testdata_decam.git
   lfs: true
-validate_base: https://github.com/lsst/validate_base.git
-validate_drp: https://github.com/lsst/validate_drp.git
+validate_base: https://github.com/provingground-moe/validate_base.git
+validate_drp: https://github.com/provingground-moe/validate_drp.git
 validation_data_cfht:
-  url: https://github.com/lsst/validation_data_cfht.git
+  url: https://github.com/provingground-moe/validation_data_cfht.git
   lfs: true
 validation_data_decam:
-  url: https://github.com/lsst/validation_data_decam.git
+  url: https://github.com/provingground-moe/validation_data_decam.git
   lfs: true
 validation_data_hsc:
-  url: https://github.com/lsst/validation_data_hsc.git
+  url: https://github.com/provingground-moe/validation_data_hsc.git
   lfs: true
-verify: https://github.com/lsst/verify
-verify_metrics: https://github.com/lsst/verify_metrics
-pyyaml: https://github.com/lsst/pyyaml.git
-requests: https://github.com/lsst/requests.git
+verify: https://github.com/provingground-moe/verify
+verify_metrics: https://github.com/provingground-moe/verify_metrics
+pyyaml: https://github.com/provingground-moe/pyyaml.git
+requests: https://github.com/provingground-moe/requests.git
 ci_hsc:
-  url: https://github.com/lsst/ci_hsc.git
+  url: https://github.com/provingground-moe/ci_hsc.git
   lfs: true
-lsst_ci: https://github.com/lsst/lsst_ci.git
-lsst_qa: https://github.com/lsst/lsst_qa.git
-pipe_drivers: https://github.com/lsst/pipe_drivers.git
-meas_extensions_simpleShape: https://github.com/lsst/meas_extensions_simpleShape.git
-jointcal_cholmod: https://github.com/lsst/jointcal_cholmod
-jointcal: https://github.com/lsst/jointcal
+lsst_ci: https://github.com/provingground-moe/lsst_ci.git
+lsst_qa: https://github.com/provingground-moe/lsst_qa.git
+pipe_drivers: https://github.com/provingground-moe/pipe_drivers.git
+meas_extensions_simpleShape: https://github.com/provingground-moe/meas_extensions_simpleShape.git
+jointcal_cholmod: https://github.com/provingground-moe/jointcal_cholmod
+jointcal: https://github.com/provingground-moe/jointcal
 testdata_jointcal:
-  url: https://github.com/lsst/testdata_jointcal.git
+  url: https://github.com/provingground-moe/testdata_jointcal.git
   lfs: true
 fgcm:
-  url: https://github.com/lsst/fgcm.git
+  url: https://github.com/provingground-moe/fgcm.git
   ref: lsst-dev
-fgcmcal: https://github.com/lsst/fgcmcal.git
-ngmix: https://github.com/lsst/ngmix.git
-meas_extensions_ngmix: https://github.com/lsst/meas_extensions_ngmix.git
-meas_extensions_shapeHSM: https://github.com/lsst/meas_extensions_shapeHSM.git
-python_psutil: https://github.com/lsst/python_psutil.git
-meas_extensions_photometryKron: https://github.com/lsst/meas_extensions_photometryKron.git
-astropy: https://github.com/lsst/astropy.git
+fgcmcal: https://github.com/provingground-moe/fgcmcal.git
+ngmix: https://github.com/provingground-moe/ngmix.git
+meas_extensions_ngmix: https://github.com/provingground-moe/meas_extensions_ngmix.git
+meas_extensions_shapeHSM: https://github.com/provingground-moe/meas_extensions_shapeHSM.git
+python_psutil: https://github.com/provingground-moe/python_psutil.git
+meas_extensions_photometryKron: https://github.com/provingground-moe/meas_extensions_photometryKron.git
+astropy: https://github.com/provingground-moe/astropy.git
 oorb:
-  url: https://github.com/lsst/oorb.git
+  url: https://github.com/provingground-moe/oorb.git
   ref: lsst-dev
-sims_movingObjects: https://github.com/lsst/sims_movingObjects.git
-deploy_testing_distrib: https://github.com/lsst/deploy_testing_distrib.git
-pybind11: https://github.com/lsst/pybind11.git
-meas_mosaic: https://github.com/lsst/meas_mosaic.git
+sims_movingObjects: https://github.com/provingground-moe/sims_movingObjects.git
+deploy_testing_distrib: https://github.com/provingground-moe/deploy_testing_distrib.git
+pybind11: https://github.com/provingground-moe/pybind11.git
+meas_mosaic: https://github.com/provingground-moe/meas_mosaic.git
 lsst_py3: https://github.com/lsst-dm/lsst_py3.git
-obs_monocam: https://github.com/lsst/obs_monocam.git
-meas_extensions_convolved: https://github.com/lsst/meas_extensions_convolved.git
-ctrl_stats: https://github.com/lsst/ctrl_stats.git
+obs_monocam: https://github.com/provingground-moe/obs_monocam.git
+meas_extensions_convolved: https://github.com/provingground-moe/meas_extensions_convolved.git
+ctrl_stats: https://github.com/provingground-moe/ctrl_stats.git
 starlink_ast:
-  url: https://github.com/lsst/starlink_ast
+  url: https://github.com/provingground-moe/starlink_ast
   ref: lsst-dev
-sims_survey_fields: https://github.com/lsst/sims_survey_fields.git
+sims_survey_fields: https://github.com/provingground-moe/sims_survey_fields.git
 firefly_client:
-  url: https://github.com/lsst/firefly_client.git
+  url: https://github.com/provingground-moe/firefly_client.git
   ref: lsst-dev
-ws4py: https://github.com/lsst/ws4py.git
-lsst_obs: https://github.com/lsst/lsst_obs.git
-libcurl: https://github.com/lsst/libcurl.git
-meas_extensions_astrometryNet: https://github.com/lsst/meas_extensions_astrometryNet.git
-daf_fmt_mysql: https://github.com/lsst/daf_fmt_mysql
-daf_fmt_swift: https://github.com/lsst/daf_fmt_swift
-daf_fmt_s3: https://github.com/lsst/daf_fmt_s3
+ws4py: https://github.com/provingground-moe/ws4py.git
+lsst_obs: https://github.com/provingground-moe/lsst_obs.git
+libcurl: https://github.com/provingground-moe/libcurl.git
+meas_extensions_astrometryNet: https://github.com/provingground-moe/meas_extensions_astrometryNet.git
+daf_fmt_mysql: https://github.com/provingground-moe/daf_fmt_mysql
+daf_fmt_swift: https://github.com/provingground-moe/daf_fmt_swift
+daf_fmt_s3: https://github.com/provingground-moe/daf_fmt_s3
 libatomic_ops: https://github.com/lsst-dm/libatomic_ops
 libunwind: https://github.com/lsst-dm/libunwind
 igprof: https://github.com/lsst-dm/igprof
-libyaml: https://github.com/lsst/libyaml
-python_swiftclient: https://github.com/lsst/python_swiftclient
-python_boto3: https://github.com/lsst/python_boto3
-python_moto: https://github.com/lsst/python_moto
-marshmallow: https://github.com/lsst/marshmallow
+libyaml: https://github.com/provingground-moe/libyaml
+python_swiftclient: https://github.com/provingground-moe/python_swiftclient
+python_boto3: https://github.com/provingground-moe/python_boto3
+python_moto: https://github.com/provingground-moe/python_moto
+marshmallow: https://github.com/provingground-moe/marshmallow
 ci_ctio0m9:
-  url: https://github.com/lsst/ci_ctio0m9.git
+  url: https://github.com/provingground-moe/ci_ctio0m9.git
   lfs: true
-obs_ctio0m9: https://github.com/lsst/obs_ctio0m9.git
-jemalloc: https://github.com/lsst/jemalloc.git
-treecorr: https://github.com/lsst/treecorr.git
-pytest: https://github.com/lsst/pytest.git
-pytest_flake8: https://github.com/lsst/pytest_flake8.git
-pytest_session2file: https://github.com/lsst/pytest_session2file.git
-pytest_xdist: https://github.com/lsst/pytest_xdist.git
-pytest_forked: https://github.com/lsst/pytest_forked.git
-python_execnet: https://github.com/lsst/python_execnet.git
-pycodestyle: https://github.com/lsst/pycodestyle.git
-python_mccabe: https://github.com/lsst/python_mccabe.git
-pyflakes: https://github.com/lsst/pyflakes.git
-flake8: https://github.com/lsst/flake8.git
-python_coverage: https://github.com/lsst/python_coverage.git
-pytest_cov: https://github.com/lsst/pytest_cov.git
-pep8_naming: https://github.com/lsst/pep8_naming.git
-cerberus: https://github.com/lsst/cerberus/
-obs_comCam: https://github.com/lsst/obs_comCam.git
-testdata_deblender: https://github.com/lsst/testdata_deblender.git
-synpipe: https://github.com/lsst/synpipe.git
-cp_pipe: https://github.com/lsst/cp_pipe.git
-jsonschema: https://github.com/lsst/jsonschema
-alembic: https://github.com/lsst/alembic
-daf_butler: https://github.com/lsst/daf_butler
-json_nlohmann: https://github.com/lsst/json_nlohmann.git
-display_ginga: https://github.com/lsst/display_ginga
-cbp: https://github.com/lsst/cbp
+obs_ctio0m9: https://github.com/provingground-moe/obs_ctio0m9.git
+jemalloc: https://github.com/provingground-moe/jemalloc.git
+treecorr: https://github.com/provingground-moe/treecorr.git
+pytest: https://github.com/provingground-moe/pytest.git
+pytest_flake8: https://github.com/provingground-moe/pytest_flake8.git
+pytest_session2file: https://github.com/provingground-moe/pytest_session2file.git
+pytest_xdist: https://github.com/provingground-moe/pytest_xdist.git
+pytest_forked: https://github.com/provingground-moe/pytest_forked.git
+python_execnet: https://github.com/provingground-moe/python_execnet.git
+pycodestyle: https://github.com/provingground-moe/pycodestyle.git
+python_mccabe: https://github.com/provingground-moe/python_mccabe.git
+pyflakes: https://github.com/provingground-moe/pyflakes.git
+flake8: https://github.com/provingground-moe/flake8.git
+python_coverage: https://github.com/provingground-moe/python_coverage.git
+pytest_cov: https://github.com/provingground-moe/pytest_cov.git
+pep8_naming: https://github.com/provingground-moe/pep8_naming.git
+cerberus: https://github.com/provingground-moe/cerberus/
+obs_comCam: https://github.com/provingground-moe/obs_comCam.git
+testdata_deblender: https://github.com/provingground-moe/testdata_deblender.git
+synpipe: https://github.com/provingground-moe/synpipe.git
+cp_pipe: https://github.com/provingground-moe/cp_pipe.git
+jsonschema: https://github.com/provingground-moe/jsonschema
+alembic: https://github.com/provingground-moe/alembic
+daf_butler: https://github.com/provingground-moe/daf_butler
+json_nlohmann: https://github.com/provingground-moe/json_nlohmann.git
+display_ginga: https://github.com/provingground-moe/display_ginga
+cbp: https://github.com/provingground-moe/cbp
 meas_extensions_multiShapelet: https://github.com/lsst-dm/legacy-meas_extensions_multiShapelet.git
-testing_pipeQA: https://github.com/lsst/testing_pipeQA.git
-testing_displayQA: https://github.com/lsst/testing_displayQA.git
-lsst_dm_stack_demo: https://github.com/lsst/lsst_dm_stack_demo.git
-autograd: https://github.com/lsst/autograd.git
+testing_pipeQA: https://github.com/provingground-moe/testing_pipeQA.git
+testing_displayQA: https://github.com/provingground-moe/testing_displayQA.git
+lsst_dm_stack_demo: https://github.com/provingground-moe/lsst_dm_stack_demo.git
+autograd: https://github.com/provingground-moe/autograd.git
 proxmin:
-  url: https://github.com/lsst/proxmin.git
+  url: https://github.com/provingground-moe/proxmin.git
   ref: lsst-dev
 scarlet:
-  url: https://github.com/lsst/scarlet.git
+  url: https://github.com/provingground-moe/scarlet.git
   ref: lsst-dev
-meas_extensions_scarlet: https://github.com/lsst/meas_extensions_scarlet.git
+meas_extensions_scarlet: https://github.com/provingground-moe/meas_extensions_scarlet.git
 ts_opensplice: https://github.com/lsst-ts/ts_opensplice.git
 ts_xml:
   url: https://github.com/lsst-ts/ts_xml.git
@@ -354,42 +354,42 @@ ts_statemachine: https://github.com/lsst-ts/ts_statemachine.git
 ts_dateloc: https://github.com/lsst-ts/ts_dateloc.git
 ts_astrosky_model: https://github.com/lsst-ts/ts_astrosky_model.git
 ts_observatory_model: https://github.com/lsst-ts/ts_observatory_model.git
-sims_seeingModel: https://github.com/lsst/sims_seeingModel.git
-sims_cloudModel: https://github.com/lsst/sims_cloudModel.git
-sims_downtimeModel: https://github.com/lsst/sims_downtimeModel.git
+sims_seeingModel: https://github.com/provingground-moe/sims_seeingModel.git
+sims_cloudModel: https://github.com/provingground-moe/sims_cloudModel.git
+sims_downtimeModel: https://github.com/provingground-moe/sims_downtimeModel.git
 scheduler_config: https://github.com/lsst-ts/scheduler_config.git
 ts_schedulerConfig: https://github.com/lsst-ts/ts_schedulerConfig.git
 ts_scheduler: https://github.com/lsst-ts/ts_scheduler.git
 ts_proposalScheduler: https://github.com/lsst-ts/ts_proposalScheduler.git
-sims_featureScheduler: https://github.com/lsst/sims_featureScheduler.git
-sims_almanac: https://github.com/lsst/sims_almanac.git
+sims_featureScheduler: https://github.com/provingground-moe/sims_featureScheduler.git
+sims_almanac: https://github.com/provingground-moe/sims_almanac.git
 sims_ocs: https://github.com/lsst-sims/sims_ocs.git
 sims_speedObservatory: https://github.com/lsst-sims/sims_speedObservatory.git
-astro_metadata_translator: https://github.com/lsst/astro_metadata_translator.git
-ap_association: https://github.com/lsst/ap_association.git
-ap_pipe: https://github.com/lsst/ap_pipe.git
-ap_verify: https://github.com/lsst/ap_verify.git
+astro_metadata_translator: https://github.com/provingground-moe/astro_metadata_translator.git
+ap_association: https://github.com/provingground-moe/ap_association.git
+ap_pipe: https://github.com/provingground-moe/ap_pipe.git
+ap_verify: https://github.com/provingground-moe/ap_verify.git
 ap_verify_testdata:
-  url: https://github.com/lsst/ap_verify_testdata.git
+  url: https://github.com/provingground-moe/ap_verify_testdata.git
   lfs: true
 ap_verify_hits2015:
-  url: https://github.com/lsst/ap_verify_hits2015.git
+  url: https://github.com/provingground-moe/ap_verify_hits2015.git
   lfs: true
 ap_verify_ci_hits2015:
-  url: https://github.com/lsst/ap_verify_ci_hits2015.git
+  url: https://github.com/provingground-moe/ap_verify_ci_hits2015.git
   lfs: true
-dax_ppdb: https://github.com/lsst/dax_ppdb.git
-python_py: https://github.com/lsst/python_py.git
-obs_lsst: https://github.com/lsst/obs_lsst.git
-ctrl_mpexec: https://github.com/lsst/ctrl_mpexec.git
+dax_ppdb: https://github.com/provingground-moe/dax_ppdb.git
+python_py: https://github.com/provingground-moe/python_py.git
+obs_lsst: https://github.com/provingground-moe/obs_lsst.git
+ctrl_mpexec: https://github.com/provingground-moe/ctrl_mpexec.git
 ci_lsst: https://github.com/lsst-dm/ci_lsst
 testdata_lsst:
-  url: https://github.com/lsst/testdata_lsst
+  url: https://github.com/provingground-moe/testdata_lsst
   lfs: true
 ap_pipe_testdata:
-  url: https://github.com/lsst/ap_pipe_testdata
+  url: https://github.com/provingground-moe/ap_pipe_testdata
   lfs: true
-obs_decam_data: https://github.com/lsst/obs_decam_data.git
-obs_subaru_data: https://github.com/lsst/obs_subaru_data.git
-obs_lsst_data: https://github.com/lsst/obs_lsst_data.git
-obs_test_data: https://github.com/lsst/obs_test_data.git
+obs_decam_data: https://github.com/provingground-moe/obs_decam_data.git
+obs_subaru_data: https://github.com/provingground-moe/obs_subaru_data.git
+obs_lsst_data: https://github.com/provingground-moe/obs_lsst_data.git
+obs_test_data: https://github.com/provingground-moe/obs_test_data.git
